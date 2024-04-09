@@ -1,0 +1,280 @@
+.welcomecontainer{
+    width: 100%;
+}
+.welcomeupbars{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    left: 10%;
+    right: 10%;
+}
+.welcomeupbarsbars{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    position: relative;
+    top: -30px; 
+}
+
+/* Bar 1*/
+.bar1{
+    width: 25%; 
+    background-color: #dcdcdc;
+    height: 90px;
+    border-radius: 8px;
+    margin-right: 20px;
+    align-items: center;
+    align-content: center;justify-content: center;
+    display: flex;
+    text-align: center;
+    padding: 10px;
+    font-weight: 1000;
+    cursor: pointer;
+    /* font-size: 20px; */
+    transition: 1s;
+    border: solid 2px rgb(29, 72, 81);
+
+
+}
+.bar1:hover{
+    background-color: rgba(83, 2, 12, 0.8);
+    color: #fff;
+    transition: 0.8s;
+}
+.bar2:hover{
+    background-color: rgba(83, 2, 12, 0.8);
+    color: #fff;
+    transition: 0.8s;
+}
+.bar3:hover{
+    background-color: rgba(83, 2, 12, 0.8);
+    color: #fff;
+    transition: 0.8s;
+}
+.barimage{
+    width: 30%;
+    align-items: center;align-content: center;justify-content: center;
+}
+.barimage img{
+    width: 50%;
+}
+.bartext{
+    width: 70%;
+    align-items: left;align-content: left;justify-content: left;
+    text-align: left;  
+    text-transform: uppercase;
+}
+.bartext h2{
+    font-size: 20px;
+}
+.bartext span{
+    color: rgb(82, 1, 1);
+    font-weight: 800;
+    font-size: 10px;
+}
+
+/*Bar 2*/
+.bar2{
+    width: 24%; 
+    background-color: #dcdcdc;
+    height: 90px;
+    /* position: absolute; */
+    border-radius: 8px;
+    margin-right: 20px;
+    padding: 10px;
+    font-weight: 1000;
+    cursor: pointer;
+    /* font-size: 20px; */
+    transition: 1s;
+    display: flex;
+    text-align: center;
+    padding: 10px;
+    font-weight: 1000;
+    cursor: pointer;
+    /* font-size: 20px; */
+    transition: 1s;
+    border: solid 2px rgb(82, 1, 1);
+}
+
+.bar3{
+    width: 25%; 
+    background-color: #dcdcdc;
+    height: 90px;
+    margin-right: 20px;
+    border-radius: 8px;
+    padding: 10px;
+    font-weight: 1000;
+    cursor: pointer;
+    /* font-size: 20px; */
+    /* transition: 1s; */
+    display: flex;
+    text-align: center;
+    padding: 10px;
+    font-weight: 1000;
+    cursor: pointer;
+    /* font-size: 20px; */
+    transition: 1s;
+    border: solid 2px rgb(255, 212, 31);
+
+}
+
+
+@media screen and (min-width:320px) and (max-width:767px) {
+    .welcomeupbars{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        position: none;
+        left: 0;
+        right: 0;
+    }
+
+    .welcomeupbarsbars{
+        display: block;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        position: none;
+        margin-left: auto;margin-right: auto;
+        width: 100%;
+        top: 0px; 
+    }
+    .bar1{
+        width: 100%; 
+        margin-left: auto;margin-right: auto;
+        /* background-color: #dcdcdc; */
+        height: 80px;
+        border-radius: 3px;
+        margin-bottom: 10px;
+        margin-top: 5px;
+        
+    }
+    .bar2{
+        width: 100%; 
+        margin-left: auto;margin-right: auto; 
+        /* background-color: #03d21b; */
+        height: 80px;
+        /* position: absolute; */
+        border-radius: 3px;
+        margin-bottom: 10px;
+    
+        
+    }
+    .bar3{
+        width: 100%; 
+        margin-left: auto;margin-right: auto;
+        /* background-color: #310202; */
+        height: 80px;
+        border-radius: 3px;
+        margin-bottom: 10px;
+    }
+    
+
+    .barimage{
+        width: 30%;
+        align-items: center;align-content: center;justify-content: center;
+    }
+    .barimage img{
+        width: 50%;
+    }
+    .bartext{
+        width: 70%;
+        align-items: left;align-content: left;justify-content: left;
+        text-align: left;  
+        text-transform: uppercase;
+    }
+    .bartext h2{
+        font-size: 18px;
+        font-weight: 800;
+    }
+    .bartext span{
+        color: rgb(82, 1, 1);
+        font-weight: 800;
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1024px){
+
+    .welcomeupbars{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        position: absolute;
+        left: 5%;
+        right: 5%;
+    }
+    .welcomeupbarsbars{
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        position: relative;
+        top: -50px; 
+    }
+    
+    .bar1{
+        width: 32%; 
+        margin-left: auto;margin-right: auto;
+        /* background-color: #dcdcdc; */
+        height: 80px;
+        border-radius: 3px;
+        margin-bottom: 10px;
+        margin-top: 5px;
+        
+    }
+    .bar2{
+        width: 32%; 
+        margin-left: auto;margin-right: auto; 
+        /* background-color: #03d21b; */
+        height: 80px;
+        /* position: absolute; */
+        border-radius: 3px;
+        margin-bottom: 10px;
+    
+        
+    }
+    .bar3{
+        width: 32%; 
+        margin-left: auto;margin-right: auto;
+        /* background-color: #310202; */
+        height: 80px;
+        border-radius: 3px;
+        margin-bottom: 10px;
+    }
+    
+    .bar4{
+        width: 30%; 
+        margin-left: auto;margin-right: auto;
+        /* background-color: #080808; */
+        height: 90px;
+        border-radius: 3px;
+        margin-bottom: 10px;
+    }
+
+    .barimage{
+        width: 30%;
+        align-items: center;align-content: center;justify-content: center;
+    }
+    .barimage img{
+        width: 50%;
+    }
+    .bartext{
+        width: 70%;
+        align-items: left;align-content: left;justify-content: left;
+        text-align: left;  
+        text-transform: uppercase;
+    }
+    .bartext h2{
+        font-size: 18px;
+        font-weight: 800;
+    }
+    .bartext span{
+        color: rgb(82, 1, 1);
+        font-weight: 800;
+        font-size: 11px;
+    }
+
+}
